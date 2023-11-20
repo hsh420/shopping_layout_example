@@ -1,0 +1,174 @@
+@font-face {
+  font-family: "Quicksand";
+  src: url("assets/Quicksand/Quicksand-VariableFont_wght.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+main {
+  padding: 10px;
+  font-family: "Quicksand", sans-serif;
+  color: #a4a4a4;
+  background-color: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  width: 370px;
+  box-shadow: 0 0 5px 0 rgba(190, 190, 190, 0.5);
+  border-radius: 10px;
+  overflow: hidden;
+  padding-bottom: 10px;
+  background-color: #fff;
+}
+
+.img-container {
+  width: 100%;
+  position: relative;
+}
+
+.img-container > figure {
+  margin: 0;
+}
+
+.img {
+  width: 100%;
+}
+
+.img-caption {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 10px;
+  z-index: 99;
+}
+
+.img-badge {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #c9d4da;
+  border-radius: 5px;
+  color: #000;
+  font-size: 10px;
+}
+
+.img-crossing {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(transparent, #fff);
+}
+
+.content-container {
+  padding: 15px;
+  font-size: 12px;
+}
+
+.content-container > h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #000;
+  font-size: 15px;
+}
+
+.content-container > p {
+  margin-bottom: 0;
+  line-height: 20px;
+}
+
+.cart-container {
+  background-color: #f5f5f5;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.cart-container > div > select {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 50px;
+  border: 1px solid #f1f1f1;
+}
+
+.price-tag {
+  background-color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  color: #000;
+}
+
+.price-tag > p {
+  padding: 5px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+label + select {
+  margin-right: 45px;
+}
+
+.color-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.blue {
+  background-color: #1f55af;
+}
+
+.red {
+  background-color: #d94c45;
+}
+
+.black {
+  background-color: #000;
+}
+
+.green-black {
+  background-image: linear-gradient(90deg, #969536 50%, #000 50%);
+}
+
+.blue-black {
+  background-image: linear-gradient(90deg, #568ad8 50%, #000 50%);
+}
+
+.pink-black {
+  background-image: linear-gradient(90deg, #d2648c 50%, #000 50%);
+}
+
+.red-white {
+  background-image: linear-gradient(90deg, #cd3228 50%, #fff 50%);
+}
+
+.black-white {
+  background-image: linear-gradient(90deg, #000 50%, #fff 50%);
+}
+
+.cart-btn {
+  background-color: #485fb9;
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
